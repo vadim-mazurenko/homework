@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+body{
+	background: url("../images/bg_texture.gif");
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 24px;
+	color: #424c43;
+}
+a{
+	color: #128aa7;
+	text-decoration: underline;
+}
+a:hover{
+	color: #424c43;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	line-height: 0;
+	vertical-align: top;
+}
+.wrapper{
+	background: url("../images/bg.jpg") repeat-x;
+}
+.main{
+	background: white;	
+	margin: 0 auto;
+    width: 1000px;
+    box-shadow: 2px 10px 30px 1px rgba(0, 0, 0, .75);
+    border-bottom: 2px solid black;
+}
+.logo{
+	float: left;
+}
+.communication{
+	float: right;
+	color: #41a1b9;
+}
+.text{
+	margin: 10px 32px 0 0;
+	float: right;
+	font-size: 12px;
+	line-height: 18px;
+}
+strong{
+	font-weight: bold;
+	font-size: 12px
+}
+.container{
+	overflow: hidden;
+}
+.flags {
+	margin-top: 30px;
+}
+.flags li {
+ 	float: left; 
+ 	margin-right: 15px;
+ 	font-size: 10px;
+ 	text-align: center;
+ 	list-style: none; 
+ 	line-height: 13px; 
+}
+.flags span {
+	display: block;
+}
+.menu{
+	background-color:#323232;
+	height: 30px;
+	box-sizing: border-box;
+	border-bottom: 1px solid black;
+}
+.menu li{
+	display: inline-block;
+	margin: 0 30px;
+}
+.menu a{
+	display: block;
+	padding: 2px 20px 0 20pх;
+	text-decoration: none;
+	color: white;
+	border-left:  1px solid transparent;
+	border-right: 1px solid transparent;
+}
+.top{
+	line-height: 30px;
+}
+.top ul{
+	background-color: #303030;
+	position: absolute;
+	padding: 10px;
+	min-width: 130px;
+	display: none;
+	color: white;
+}
+.top:hover ul{
+	display: block;
+}
+.top li{
+	display: block;
+	margin: 0;
+} 
+.fon {
+	overflow: hidden;
+	background: url("../images/fon.jpg") repeat-y;
+}
+.leftColumn {	
+	width: 170px;
+	float: left;
+	padding: 10px 20px;
+}
+.leftColumn ul{
+	display: block;
+	list-style: none;
+}
+.topic{
+	font-size: 19px;	
+	text-align: center;
+}
+.centerColumn {
+	width: 540px;
+	float: left;
+	padding: 10px 20px;	
+}
+.rightColumn {	
+	width: 170px;
+	float: right;	
+	padding: 10px 20px;
+}
+.rightColumn ul {
+	list-style:none;
+}
+footer{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+
