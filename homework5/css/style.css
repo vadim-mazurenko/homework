@@ -1,12 +1,16 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Tahoma";
+}
+@font-face{
+	font-family: "Tahoma";
+	src: url("fonts/ofont.ru_Tahoma.ttf");
 }
 body{
 	background: url("../images/bg.jpg") 0 0 no-repeat fixed;
 	background-size: cover;
-	font-family: Helvetica;
-
+	font-family: "Tahoma";
 }
 .menu{
 	background:url("../images/menubg.jpg");
@@ -15,8 +19,7 @@ body{
 }
 .menu li{
 	display: inline-block;	
-	list-style: none;
-	
+	list-style: none;	
 }
 .menu a{
 	display: inline-block;
@@ -24,7 +27,12 @@ body{
 	text-decoration: none;
 	line-height: 35px;
 	padding: 0 12px;
-
+}
+.underline{
+	text-decoration: underline;
+}
+.bold{
+	font-weight: bold;
 }
 .welcome, .Minhas, .pynkt{
 	float: right;
@@ -37,9 +45,7 @@ body{
 	padding: 0 15px;
 }
 .Minhas{
-	padding: 2px 0 3px 10px;
-
-	
+	padding: 2px 0 3px 10px;	
 }
 .Minhas span{
 	display: block;
@@ -52,8 +58,9 @@ body{
 .flag{
 	vertical-align: top;
 	margin: 5px 10px 0 0;
+	
 }
-.button14 {
+.button_facebook {
 	display: inline-block;
 	background: url("../images/buttonbg.jpg") repeat-x;
 	text-decoration: none;
@@ -65,29 +72,27 @@ body{
 	overflow: hidden;
 	border-top: 
 }
-.button14 .left{
+.button_facebook .left{
 	float: left;
 	border-right: 1px solid #213c71;
 	padding: 0 15px 0 15px;
 	font-size: 20px;
 	line-height: 35px;	
 }
-.button14 .right{
+.button_facebook .right{
 	float: left;
 	border-left: 1px solid #4d66a6;	
 	text-align: center;
 	padding: 0 10px 0 10px;
-	line-height: 35px;
-	
+	line-height: 35px;	
 }
-.button14 .arrow{
+.button_facebook .arrow{
 	font-size: 20px;
 	margin-left: 10px;
 }
-.button14:hover .arrow{
+.button_facebook:hover .arrow{
 	padding-left: 10px;
 }
-
 .leftline{
 	background: url("../images/line.jpg") 0 50% no-repeat;
 	margin-top: 10px;
@@ -120,9 +125,7 @@ body{
 	text-align: center;
 	color: white;
 }
-
-input:not(.checkbox){
-	
+input:not(.checkbox){	
 	background-color: rgba(0,0,0,.6);
 	width: 100%;
 	border: none;	
@@ -139,8 +142,6 @@ input:not(.checkbox):focus{
     -moz-box-shadow: 2px 3px 14px 6px rgba(60,108,141,1);
     box-shadow: 2px 3px 14px 6px rgba(60,108,141,1);
 }
-
-
 h3{
 	text-align: center;
 }
@@ -153,16 +154,12 @@ button{
 	background:url("../images/buttonbg2.jpg") repeat-x;
 	border:none;
 	margin: 0 auto;
-
 }
 .checkbox{
 	margin: 10px 10px 20px 0;
 	color: #b5b5b3;	
 	font-size: 12px;
 }
-
-
-
 .footer{
 	display: block;
 	font-size: 12px;

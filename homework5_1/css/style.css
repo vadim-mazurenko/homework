@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+table {
+    border: solid 1px #444;
+}
+td {
+    width: 70px;
+    height:30px;
+    border: solid 1px #444;
+    background: #fff;
+}
+.double {
+    height: 60px;
+}
+.fourfold {
+    height: 120px;
+}
+.double-col {
+    width: 140px;
+}
+.yellow {
+    background: #ff0;
+}
+.red{
+    background: #f00;
+}
+.blue{
+    background: #00f;
+}
+.black{
+    background: #000;
+}
