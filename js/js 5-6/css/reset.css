@@ -1,0 +1,16 @@
+.wrapper{
+	
+	text-align: center;
+}
+
+#for_count {
+	text-align: center;
+	font-size: 100px;
+	/*margin: 0 auto;*/
+}
+#start, #stop{
+	margin: 0 auto;
+}
+input{
+	text-align: center;
+}
